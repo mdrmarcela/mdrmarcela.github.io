@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu site pessoal</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- CSS adicional -->
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Marcela <span class="text-success">Dutra</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item"><a class="nav-link" href="#apresentacao">Apresentação</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#curriculo">Currículo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Apresentação -->
+    <section class="py-5" id="apresentacao">
+        <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+            <div class="mb-4 mb-md-0">
+                <img src="imagens/foto-perfil.jpg" class="rounded-circle shadow"
+                    style="width: 350px; height: 350px; object-fit: cover;" alt="foto">
+            </div>
+            <div class="ms-md-5 text-center text-md-start">
+                <h1>Olá, eu sou a <span class="text-success">Marcela.</span></h1>
+                <p class="mt-3">Tenho 20 anos, sou natural de São Joaquim e atualmente moro em Lages. Estou em formação
+                    como desenvolvedora e criei este site pessoal utilizando Bootstrap e CSS. Aqui, você poderá
+                    acompanhar minha trajetória, explorando meus projetos, estudos e práticas enquanto mergulho cada vez
+                    mais fundo no universo da tecnologia. </p>
+                <div class="d-flex justify-content-center justify-content-md-start gap-3 my-3">
+                    <a href="https://github.com/mdrmarcela" target="_blank"
+                        class="btn btn-outline-success rounded-circle">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/marcela-rodrigues-480887188" target="_blank"
+                        class="btn btn-outline-success rounded-circle">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section class="py-5" id="sobre">
+        <div class="container">
+            <h2 class="text-center mb-5">
+                <span class="border-bottom border-3 border-danger pb-1">Sobre Mim</span>
+            </h2>
+            <div class="text-center text-white">
+                <p class="mb-4">
+                    Olá! Eu sou <span class="text-success fw-bold">Marcela</span>, estudante de Ciência da Computação e
+                    Técnico em Desenvolvimento de Sistemas. Sou apaixonada por tecnologia, tenho interesse em projetos
+                    sociais e estou sempre envolvida em atividades filantrópicas e extracurriculares.
+                </p>
+
+                <!-- Tecnologias -->
+                <h5 class="text-success mt-4">Tecnologias de interesse</h5>
+                <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                    <span class="badge bg-success">Java</span>
+                    <span class="badge bg-success">Python</span>
+                    <span class="badge bg-success">JavaScript</span>
+                    <span class="badge bg-success">HTML</span>
+                    <span class="badge bg-success">CSS</span>
+                    <span class="badge bg-success">Redes Neurais</span>
+                </div>
+
+                <!-- Habilidades -->
+                <h5 class="text-success mt-4">Habilidades</h5>
+                <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                    <span class="badge bg-success">Comunicação</span>
+                    <span class="badge bg-success">Liderança</span>
+                    <span class="badge bg-success">Organização</span>
+                    <span class="badge bg-success">Trabalho em Equipe</span>
+                </div>
+
+                <!-- Cidades -->
+                <h5 class="text-success mt-4">Cidades em que estou</h5>
+                <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                    <span class="badge bg-success">Lages</span>
+                    <span class="badge bg-success">São Joaquim</span>
+                    <span class="badge bg-success">Joinville</span>
+                </div>
+
+                <!-- Linguas -->
+                <h5 class="text-success mt-4">Linguas</h5>
+                <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                    <span class="badge bg-success">Português</span>
+                    <span class="badge bg-success">Inglês</span>
+                </div>
+
+                <!-- Hobbies -->
+                <h5 class="text-success mt-4">Meus hobbies</h5>
+                <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                    <span class="badge bg-success">Ler</span>
+                    <span class="badge bg-success">Nadar</span>
+                    <span class="badge bg-success">Ouvir Música</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Currículo -->
+    <section class="py-5 bg-black" id="curriculo">
+        <div class="container">
+            <h2 class="text-center mb-5">
+                <span class="titulo-verde-sub">Meu Currículo</span>
+            </h2>
+
+            <div class="row align-items-center text-white">
+                <!-- Texto lateral esquerdo -->
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h4 class="fw-bold text-white">Minha Experiência</h4>
+                    <p class="text-white-50">
+                        Trabalhei durante 5 anos na Conexão Serra, uma empresa provedora de internet nas cidades de São
+                        Joaquim,
+                        Urubici, Urupema e Bom Jardim. Além de atuar nas áreas de contabilidade e RH, aprendi como
+                        administrar
+                        uma empresa, participei de diversos congressos de provedores e acompanhei de perto a transição
+                        da
+                        tecnologia via rádio para fibra óptica em Santa Catarina.
+                    </p>
+                    <div class="mt-4">
+                        <h1 class="display-4 fw-bold text-success">1º</h1>
+                        <p class="text-white-50">Reuni Challenge</p>
+                    </div>
+                </div>
+
+                <!-- Barras de formações-->
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-between">
+                        <span class="text-success">Ciência da Computação</span>
+                        <span class="fw-bold text-success">52%</span>
+                    </div>
+                    <div class="progress mb-3 bg-dark">
+                        <div class="progress-bar bg-success" style="width: 52%;"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <span class="text-success">Técnico em Desenvolvimento de Sistemas</span>
+                        <span class="fw-bold text-success">33%</span>
+                    </div>
+                    <div class="progress mb-3 bg-dark">
+                        <div class="progress-bar bg-success" style="width: 33%;"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <span class="text-success">FIC Inglês</span>
+                        <span class="fw-bold text-success">50%</span>
+                    </div>
+                    <div class="progress mb-3 bg-dark">
+                        <div class="progress-bar bg-success" style="width: 60%;"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <span class="text-success">Cursos Complementares</span>
+                        <span class="fw-bold text-success">60%</span>
+                    </div>
+                    <div class="progress mb-3 bg-dark">
+                        <div class="progress-bar bg-success" style="width: 20%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Portfólio -->
+    <section class="py-5" id="portfolio">
+        <div class="container">
+            <h2 class="text-center mb-5"><span class="border-bottom border-3 border-danger pb-1">Meu Portfólio</span>
+            </h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="p-4 border rounded text-center h-100">
+                        <!-- Ícone superior -->
+                        <div class="d-flex justify-content-center">
+                            <div class="icon bg-success text-white rounded-circle mb-3 d-flex align-items-center justify-content-center"
+                                style="width: 50px; height: 50px;">
+                                <i class="fas fa-desktop"></i>
+                            </div>
+                        </div>
+
+                        <!-- Título e descrição -->
+                        <div class="topic fw-bold">Algoritmo Genético</div>
+                        <p>Em grupo, criamos um Algoritmo Genético capaz de realizar a programação de viagens de uma
+                            rede de supermercado para distribuir produtos entre as lojas, de forma a minimizar os custos
+                            logísticos, evitar rupturas de estoque e excesso de mercadorias.</p>
+
+                        <!-- Ícone do GitHub abaixo do texto -->
+                        <div class="d-flex justify-content-center">
+                            <a href="https://github.com/mdrmarcela/AlgoritmoGenetico/tree/main" target="_blank">
+                                <div class="icon bg-dark text-white rounded-circle mt-3 d-flex align-items-center justify-content-center"
+                                    style="width: 50px; height: 50px;">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="p-4 border rounded text-center h-100">
+                        <!-- Ícone superior -->
+                        <div class="d-flex justify-content-center">
+                            <div class="icon bg-success text-white rounded-circle mb-3 d-flex align-items-center justify-content-center"
+                                style="width: 50px; height: 50px;">
+                                <i class="fas fa-dollar-sign"></i>
+                            </div>
+                        </div>
+
+                        <!-- Título e descrição -->
+                        <div class="topic fw-bold">New Bank</div>
+                        <p>É um sistema bancário com interface gráfica moderna, suporte a múltiplos idiomas e
+                            persistência de dados. Possui funcionalidades de criar uma conta, acessar uma conta e sair.
+                        </p>
+
+                        <!-- Ícone do GitHub abaixo do texto -->
+                        <div class="d-flex justify-content-center">
+                            <a href="https://github.com/mdrmarcela/NewBank" target="_blank">
+                                <div class="icon bg-dark text-white rounded-circle mt-3 d-flex align-items-center justify-content-center"
+                                    style="width: 50px; height: 50px;">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="p-4 border rounded text-center h-100">
+                        <!-- Ícone do cérebro -->
+                        <div class="d-flex justify-content-center">
+                            <div class="icon bg-success text-white rounded-circle mb-3 d-flex align-items-center justify-content-center"
+                                style="width: 50px; height: 50px;">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                        </div>
+
+                        <!-- Título e texto -->
+                        <div class="topic fw-bold">Rede Neural</div>
+                        <p>Como parte de um desafio da plataforma Kaggle, treinamos mais de 5 modelos de redes neurais e
+                            obtivemos uma acurária de 0,8397. Ficando em 329 no ranking final.</p>
+
+                        <!-- Ícone do Google Colab -->
+                        <div class="d-flex justify-content-center">
+                            <a href="https://colab.research.google.com/drive/11MlsDLs9abx_X651lpW03s3QOFmszO3m" target="_blank">
+                                <div class="icon bg-warning text-white rounded-circle mt-3 d-flex align-items-center justify-content-center"
+                                    style="width: 50px; height: 50px;">
+                                    <i class="fab fa-google"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="py-5 bg-dark" id="contato">
+        <div class="container">
+            <h2 class="text-center mb-4"><span class="border-bottom border-3 border-danger pb-1">Contato</span></h2>
+            <div class="text-center mb-4">
+                <h5>Entre em contato comigo</h5>
+            </div>
+            <div class="mx-auto" style="max-width: 600px;">
+                <form>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label text-success">Nome</label>
+                        <input type="text" class="form-control" id="nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label text-success">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label text-success">Mensagem</label>
+                        <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

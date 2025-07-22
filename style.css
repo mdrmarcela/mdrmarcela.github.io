@@ -1,0 +1,86 @@
+/* Tema Dark geral */
+body {
+  background-color: #0d0d0d;
+  color: #d0e0d0;
+}
+
+
+/* Interatividade nos textos de apresentação */
+h1 span,
+.typewriter-text {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+h1 span:active,
+.typewriter-text:active {
+  color: #a5d6a7;
+  text-shadow: 0 0 2px #a5d6a7;
+}
+
+/* Estilo leve para textos e botões */
+.text-success,
+.btn-success,
+.btn-outline-success,
+.content .typewriter,
+.content h1 span,
+.content .typewriter-text,
+.portfolio .topic,
+.curriculo-details .boxes .topic {
+  color: #98cfa3 !important;
+  text-shadow: 0 0 1px #98cfa3;
+}
+
+/* Botões com brilho sutil */
+.btn-success {
+  background-color: #2f6e4f;
+  border: 1px solid #2f6e4f;
+  box-shadow: 0 0 2px #2f6e4f;
+  transition: all 0.3s ease-in-out;
+}
+.btn-success:hover {
+  background-color: transparent;
+  color: #2f6e4f;
+  box-shadow: 0 0 4px #2f6e4f;
+}
+
+.btn-outline-success {
+  border: 1px solid #2f6e4f;
+  color: #2f6e4f;
+  box-shadow: 0 0 2px #2f6e4f;
+}
+.btn-outline-success:hover {
+  background-color: #2f6e4f;
+  color: white;
+  box-shadow: 0 0 4px #2f6e4f;
+}
+
+/* Ícones */
+.social-links i {
+  background-color: transparent;
+  border: 1px solid #2f6e4f;
+  color: #2f6e4f;
+  border-radius: 50%;
+  padding: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 2px #2f6e4f;
+}
+.social-links i:hover {
+  background-color: #2f6e4f;
+  color: white;
+  scale: 1.1;
+  box-shadow: 0 0 4px #2f6e4f;
+}
+
+/* Títulos com destaque */
+h2 span,
+.topic,
+section .title span,
+.right p span {
+  color: #98cfa3;
+  text-shadow: 0 0 1px #98cfa3;
+}
+
+/* Corrigir erro no transform */
+section .title span::after {
+  transform: translateX(-50%);
+}
